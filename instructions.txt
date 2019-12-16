@@ -1,0 +1,56 @@
+﻿Before you use this Application : 
+
+
+1. Make sure that Model Answers are saved in the folder named as MODEL_ANSWER(IMG) as a .jpg file(sequence wise) in order of the questions as img1.jpg , img2.jpg and so on.
+
+
+2.Also ensure that students answer sheet images are uploaded in STUDENT_ANSWER(IMG) , according to the students roll no. ( student1 , student2 and so on ), Further take care to upload the students answers in his/her respective folder Question wise as img.jpg, img2.jpg , img3.jpg and so on.
+
+
+3. A google account with auto-login set in the default browser is also required.
+
+
+4.A good working internet connection is a must for working of the application.
+
+
+
+
+How to use this Application:
+
+
+1. There are 5 main functional buttons in the application.These are Instructions, Model Answers, Students’ Answers, Evaluate and Results.
+
+
+2. The Instructions Button : will open this text document in your default browser or editor . It is highly recommended to please go through the instruction manual completely and thoroughly.
+
+
+3. Model Answers :
+
+
+i) This Button will pop a window asking for number of questions for which model answers are      saved by the user in the required directory as discussed in the pre-requisites above.
+
+
+ii) After entering number of questions in the input box click on confirm and please wait for 5-6  minutes to get things processed(for the OCR software to convert images to text file). 
+The waiting time may increase in case of a slower internet connection, as to reduce errors in the conversion of image to text we are using google drives API.
+
+
+5. Students' Answers:
+
+
+i) A pop-up window will be created for the user to enter the number of students whose answer copies are to be checked.
+
+
+ii)After clicking on confirm button, you will again need to wait for 5-6 minutes till a pop-up 
+confirmation is seen. Again the waiting time may increase in case of a slower internet connection.
+
+
+6. Evaluate  :Will give us machine generated scores after checking similarities
+between the Model Answers and the Students' Answers(in form of a text file scores.txt )
+
+
+8. Results : Will give you the statistical data of evaluations done till now in a tabular form ,
+With percentage marks of each student in each question .  
+
+9. Quit : According to the users need , he/she can either delete the checked copies(images and text documents) or keep them for future reference while exiting the application.
+
+
